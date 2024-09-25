@@ -8,9 +8,9 @@ xrandr --output Virtual1 --mode 1360x768
 
 mkdir ~/.local/scr ~/wallpaper
 cd ~/wallpaper 
-wget https://w.wallhaven.cc/full/9m/wallhaven-9m6l1w.png
-xwallpaper --zoom ~/wallpaper/wallhaven-9m6l1w.png
-wal -i ~/wallpaper/wallhaven-9m6l1w.png
+wget https://w.wallhaven.cc/full/gj/wallhaven-gjr8xq.jpg
+xwallpaper --zoom ~/wallpaper/wallhaven-gjr8xq.jpg
+wal -i ~/wallpaper/wallhaven-gjr8xq.jpg
 
 cd ~/.local/scr
 
@@ -18,7 +18,7 @@ git clone http://github.com/bugswriter/dwm.git
 git clone http://github.com/bugswriter/dmenu.git
 git clone http://github.com/bugswriter/st.git
 git clone https://github.com/FilipLitwora/pywal-discord.git
-git clone http://aur.archlinux.org/paru.git
+git clone https://aur.archlinux.org/yay.git
 
 cd dwm 
 sudo make clean install
@@ -32,7 +32,7 @@ cd st
 sudo make clean install
 
 cd .. 
-cd paru
+cd yay
 makepkg -si
 
 cd .. 
