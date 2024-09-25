@@ -1,10 +1,6 @@
 
 
-sudo pacman -Sy git libxft libxinerama neofetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal
-
-setsid xcompmgr
-
-xrandr --output Virtual1 --mode 1920x1080
+sudo pacman -Sy git zsh libxft libxinerama neofetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal
 
 mkdir ~/.local/scr ~/wallpaper
 cd ~/wallpaper 
@@ -39,4 +35,10 @@ cd ..
 cd pywal-discord
 ./install
 
+
+
+setsid xcompmgr
+xrandr --output Virtual1 --mode 1920x1080
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 bash <(curl https://updates.zen-browser.app/appimage.sh)
