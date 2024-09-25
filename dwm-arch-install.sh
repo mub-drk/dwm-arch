@@ -38,3 +38,5 @@ makepkg -si
 cd .. 
 cd pywal-discord
 ./install
+
+bash <(curl https://updates.zen-browser.app/appimage.sh)
