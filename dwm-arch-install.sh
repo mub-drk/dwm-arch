@@ -4,7 +4,7 @@ sudo pacman -Sy git libxft libxinerama neofetch ttf-jetbrains-mono ttf-font-awes
 
 setsid xcompmgr
 
-xrandr --output Virtual1 --mode 1360x768
+xrandr --output Virtual1 --mode 1920x1080
 
 mkdir ~/.local/scr ~/wallpaper
 cd ~/wallpaper 
