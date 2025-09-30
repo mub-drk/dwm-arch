@@ -1,6 +1,6 @@
+ 
 
-
-sudo pacman -Syyu git zsh libxft libxinerama fastetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal
+sudo pacman -Syyu git zsh libxft libxinerama fastetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal --noconfirm
 
 mkdir ~/.local/scr ~/wallpaper
 cd ~/wallpaper 
@@ -29,7 +29,7 @@ sudo make clean install
 
 cd .. 
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 
 cd .. 
 cd pywal-discord
