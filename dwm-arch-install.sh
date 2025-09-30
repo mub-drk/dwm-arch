@@ -1,6 +1,6 @@
 
 
-sudo pacman -Sy git zsh libxft libxinerama neofetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal
+sudo pacman -Syyu git zsh libxft libxinerama neofetch ttf-jetbrains-mono ttf-font-awesome xwallpaper xorg-xrandr wget xcompmgr python-pywal
 
 mkdir ~/.local/scr ~/wallpaper
 cd ~/wallpaper 
